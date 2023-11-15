@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isha portfolio</title>
+    <link rel="stylesheet" href="Isha.css">
+    <link rel="stylesheet" href="Isha_min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <header>
+        <div id="sound">
+            <audio id="myAudio">
+                <source src="./Night.mp3">
+            </audio>
+            <i class="fab fa-soundcloud sound-cloud"></i>
+            <span>Sound</span>
+            <div class="on-off">
+                <span id="off">OFF</span>
+                <span id="on">On</span>
+            </div>
+        </div>
+        <div class="btns-container">
+            <i class="fas fa-bars bars"></i>
+            <i class="fas fa-times times"></i>
+        </div>
+    </header>
+
+    <!-- sidebar -->
+    <aside class="aside">
+        <div class="aside-wrapper">
+            <div class="logo-section">
+                <a class="logo" rel="home" href="#">
+                    <img src="ilogo.jpg" alt="logo" style="border-radius: 40%;">
+                    <br>
+                    <span>Isha</span>
+                </a>
+                <span>Software Developer</span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#section-home">About</a>
+                <a href="#section-about">My Skills</a>
+                <a href="#section-blog">Projects</a>
+                <a href="https://drive.google.com/file/d/1UnSGQw7HzA-U2AfvhjDZ1uTUe4TKLzei/view?usp=sharing">Resume</a>
+                <a href="mailto:isha20011305@gmail.com">Contact</a>
+            </nav>
+            <!-- social icons -->
+            <ul class="social-icons">
+                <li>
+                    <a href="https://www.linkedin.com/in/singhisha-057/">
+                        <i class="fa fa-linkedin-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Isha-cpu">
+                        <i class="fa fa-github-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:+919354360683">
+                        <i class="fa fa-phone-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <!-- text zone  section one-->
+    <section id="section-home" class="section-home">
+        <div class="text-zone">
+            <h1>
+                <span class="text-zone title-word-1">Hi</span>
+                <span class="text-zone title-word-2">,</span>
+                <span class="text-zone title-word-3">I'm</span>
+                <span class="text-zone title-word-4">Isha</span> <br> 
+            </h1>
+            <p class="word">
+            </p>
+            <br>
+        </div>
+        <div class="photo"> 
+            <img src="Isha.jpg" alt="Avatar" style="border-radius: 50%; position: relative;">
+        </div>
+    </div>
+    </section>
+
+    <!-- this is the third part the about me section -->
+    <section id="section-about">
+
+        <div class="text-zone3">
+            <div id="header">
+                <h2>Me, Myself and I</h2>
+            </div>
+            <p>
+                Hello! I'm a B.Tech student currently studying Computer Science at 
+                Delhi Technological University. Besides my studies, I love sketching—it's
+                not just a hobby but also a way for me to stay creative and improve my 
+                problem-solving skills. I enjoy this balance between academics and my
+                artistic side, and I'm excited about the journey of growth and learning ahead.
+            </p>
+            <p>
+                I interned as a software developer at SAP Labs, where I got hands-on experience
+                applying my computer science skills to real-world projects.
+            </p>
+        </div>
+
+        <div class="skills-charts">
+            <div id="myCanvasContainer">
+                <canvas width="500" height="500" id="myCanvas">
+                    <ul id="tags">
+                        <li><a href="#" target="_blank">C</a></li>
+                        <li><a href="#" target="_blank">C++</a></li>
+                        <li><a href="#" target="_blank">JavaScript</a></li>
+                        <li><a href="#" target="_blank">HTML</a></li>
+                        <li><a href="#" target="_blank">CSS</a></li>
+                        <li><a href="#" target="_blank">TypeScript</a></li>
+                        <li><a href="#" target="_blank">Data Structure</a></li>
+                        li><a href="#" target="_blank">DBMS</a></li>
+                        li><a href="#" target="_blank">Operating System</a></li>
+                        <li><a href="#" target="_blank">Wordpress</a></li>
+                        <li><a href="#" target="_blank">MongoDB</a></li>
+                        <li><a href="#" target="_blank">ML</a></li>
+                        <li><a href="#" target="_blank">Tenserflow</a></li>
+                        <li><a href="#" target="_blank">Android Studio</a></li>
+                        <li><a href="#" target="_blank">Unity</a></li>
+                        <li><a href="#" target="_blank">PHP</a></li>
+                        li><a href="#" target="_blank">Computer Architecture</a></li>
+                        <li><a href="#" target="_blank">Python</a></li>
+                        <li><a href="#" target="_blank">Git</a></li>
+                        <li><a href="#" target="_blank">MATLAB</a></li>
+                        <li><a href="#" target="_blank">SQL</a></li>
+                    </ul>
+                </canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- the about section ends here -->
+
+    <!-- blog section starts here -->
+    <!-- BLOG SECTION -->
+        
+    <section data-load="blog" id="section-blog" class="section-full section-blog js-way">
+
+        <div class="fake-big-2"></div>
+    
+        <!-- blog articles wrapper -->
+        <div class="blog-articles">
+    
+            <!-- Blog articles card 1--> 
+            <article class="post-articles" style="border-top: 2px solid#81D8F7">
+                <div class="post-content">
+                    <time class="post-date" style="color:#81D8F7;"> HTML, CSS, JS, Typescript, MongoDB </time>
+                    <div class="blog-post-title">
+                        <h5>
+                            <a data-id="2354" href="https://github.com/Isha-cpu/Nature-s-Forteller">
+                                Nature’s-Forteller		
+                            </a>
+                        </h5>
+                    </div>
+                    <div class="blog-post-content">
+                        Created a web application aimed at helping users prepare for and respond to natural disasters.
+		
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog articles card 2-->
+            <article class="post-articles" style="border-top: 2px solid #f50057;">
+                <div class="post-content">
+                    <time class="post-date" style="color:#f50057;"> ML, Python, Jupiter Notebook </time>
+                    <div class="blog-post-title">
+                        <h5>
+                            <a data-id="2182" href="file:///C:/Users/ISHA/Downloads/AE%20REPORT%202K20CO153,%202K20CO159,%202K20CO203.pdf">
+                                Waste Classification using Deep Learning				
+                            </a>
+                        </h5>
+                    </div>
+                    <div class="blog-post-content">
+                        Developed technology for garbage classification reducing human involvement and
+                        contributing to pollution reduction.
+                    </div>
+                </div>
+            </article>
+
+            <!-- Blog articles card 3-->
+            <article class="post-articles" style="border-top: 2px solid orange;">
+                <div class="post-content">
+                    <time class="post-date" style="color: orange;">Arduino, Hardware</time>
+                    <div class="blog-post-title">
+                        <h5>
+                            <a data-id="2113" href="file:///C:/Users/ISHA/Downloads/AE%20REPORT%202K20CO153,%202K20CO159,%202K20CO203.pdf">
+                                Voice Controlled RGB LED Fiddler				
+                            </a>
+                        </h5>
+                    </div>
+                    <div class="blog-post-content">
+                        RGB LEDs can be changed by using the Arduino PWM pins to get different colors.	
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <script>
+          const cursor = document.querySelector('.cursor');
+    
+          document.addEventListener('mousemove', e => {
+            cursor.style.display = 'block';
+            cursor.style.top = e.pageY - 10 + 'px';
+            cursor.style.left = e.pageX - 10 + 'px';
+          });
+    
+          document.addEventListener('mouseleave', e => {
+            cursor.style.display = 'none';
+          });
+    
+          document.addEventListener('click', e => {
+            cursor.classList.add('expand');
+    
+            setTimeout(() => {
+              cursor.classList.remove('expand');
+            }, 500);
+          });
+        </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./Isha_min.js"></script>
+    <script src="Isha.js"></script>
+</body>
+</html>
